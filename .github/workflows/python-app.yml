@@ -39,6 +39,6 @@ jobs:
     - name: Lint with pylint
       run: |
         pylint *.py
-    - name: Test with pytest
+    - name: Test with unittest
       run: |
-        pytest
+        python -m unittest discover
