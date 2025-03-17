@@ -1,7 +1,7 @@
-import unittest
+import pytest
 from priority_queue import PriorityQueue
 
-class TestPriorityQueue(unittest.TestCase):
+class TestPriorityQueue(pytest.TestCase):
 
   def test_priority_queue_push_pop(self):
     pq = PriorityQueue()
@@ -63,4 +63,4 @@ class TestPriorityQueue(unittest.TestCase):
 
 
 if __name__ == "__main__":
-  unittest.main()
+  pytest.main()
